@@ -3,7 +3,7 @@
 /* ========================================================================== */
 void InitLIS3DSH(void)
 {
-	SPI1_WriteRegister(0x01, 0x00);
+//	SPI1_WriteRegister(0x01, 0x00);
 	SPI1_WriteRegister(0x20, 0x97);
 	SPI1_WriteRegister(0x24, 0xD0);
 }
